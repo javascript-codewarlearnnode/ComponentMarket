@@ -1,0 +1,7 @@
+((目前僅包含 「會員登入 & 註冊」 及 「戲院登入」))
+1.兩個資料夾inputs、signup都放在component
+2.將下面這行加到package.json中的dependencies裡面
+    "captcha-mini": "^1.0.0"
+3.執行npm install
+4.把db.json中的資料加到你的json檔案中
+

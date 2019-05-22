@@ -1,0 +1,294 @@
+{
+  "cinema-sign-inputmsg": [
+    {
+      "id": "name",
+      "w": "",
+      "h": "48px",
+      "inputType": "text",
+      "inputLabel": "戲院名稱",
+      "iconL": "fas fa-air-freshener",
+      "iconLS": "24px",
+      "placeholder": "請輸入完整名稱",
+      "iconR": "",
+      "iconRS": ""
+    },
+    {
+      "id": "id",
+      "w": "",
+      "h": "48px",
+      "inputType": "text",
+      "inputLabel": "統一編號",
+      "iconL": "",
+      "iconLS": "",
+      "placeholder": "請輸入您的統編",
+      "iconR": "fas fa-birthday-cake",
+      "iconRS": "24px"
+    },
+    {
+      "id": "city",
+      "w": "",
+      "h": "48px",
+      "inputType": "selector",
+      "inputLabel": "所在縣市",
+      "iconL": "",
+      "iconLS": "",
+      "placeholder": "這裡是下拉選單...",
+      "iconR": "fas fa-caret-square-down",
+      "iconRS": "24px",
+      "selectOptions": [
+        {
+          "id": "TPE",
+          "name": "台北市"
+        },
+        {
+          "id": "NTPC",
+          "name": "新北市"
+        },
+        {
+          "id": "KEL",
+          "name": "基隆市"
+        },
+        {
+          "id": "TYN",
+          "name": "桃園市"
+        },
+        {
+          "id": "HSZ",
+          "name": "新竹市"
+        },
+        {
+          "id": "ZMI",
+          "name": "苗栗縣"
+        },
+        {
+          "id": "TXG",
+          "name": "台中市"
+        },
+        {
+          "id": "CHW",
+          "name": "彰化縣"
+        },
+        {
+          "id": "NTC",
+          "name": "南投縣"
+        },
+        {
+          "id": "YUN",
+          "name": "雲林縣"
+        },
+        {
+          "id": "CYI",
+          "name": "嘉義市"
+        },
+        {
+          "id": "CHY",
+          "name": "嘉義縣"
+        },
+        {
+          "id": "TNN",
+          "name": "台南市"
+        },
+        {
+          "id": "PIF",
+          "name": "屏東縣"
+        },
+        {
+          "id": "ILA",
+          "name": "宜蘭縣"
+        },
+        {
+          "id": "HUN",
+          "name": "花蓮縣"
+        },
+        {
+          "id": "TTT",
+          "name": "台東縣"
+        },
+        {
+          "id": "PEH",
+          "name": "澎湖縣"
+        },
+        {
+          "id": "KNH",
+          "name": "金門縣"
+        }
+      ]
+    },
+    {
+      "id": "address",
+      "w": "",
+      "h": "48px",
+      "inputType": "text",
+      "inputLabel": "詳細地址",
+      "iconL": "",
+      "iconLS": "",
+      "placeholder": "範例格式",
+      "iconR": "",
+      "iconRS": ""
+    },
+    {
+      "id": "tel",
+      "w": "",
+      "h": "48px",
+      "inputType": "text",
+      "inputLabel": "連絡電話",
+      "iconL": "",
+      "iconLS": "",
+      "placeholder": "請輸入電話號碼",
+      "iconR": "",
+      "iconRS": ""
+    },
+    {
+      "id": "email",
+      "w": "",
+      "h": "48px",
+      "inputType": "text",
+      "inputLabel": "電子郵件",
+      "iconL": "",
+      "iconLS": "",
+      "placeholder": "請輸入您的E-mail信箱",
+      "iconR": "",
+      "iconRS": ""
+    },
+    {
+      "id": "place-type",
+      "w": "",
+      "h": "48px",
+      "inputType": "radio",
+      "inputLabel": "場所類別",
+      "iconL": "",
+      "iconLS": "",
+      "placeholder": "5種按鈕選單",
+      "iconR": "",
+      "iconRS": "",
+      "selectOptions": [
+        {
+          "id": "type1",
+          "name": "藝廊"
+        },
+        {
+          "id": "type2",
+          "name": "酒吧"
+        },
+        {
+          "id": "type3",
+          "name": "餐廳"
+        },
+        {
+          "id": "type4",
+          "name": "影院"
+        },
+        {
+          "id": "type5",
+          "name": "咖啡廳"
+        }
+      ]
+    }
+  ],
+  "cinema-sign-choose-inputmsg": [
+    {
+      "id": "website",
+      "w": "",
+      "h": "48px",
+      "inputType": "text",
+      "inputLabel": "官方網站",
+      "iconL": "",
+      "iconLS": "",
+      "placeholder": "請輸入您的官方網址",
+      "iconR": "",
+      "iconRS": ""
+    },
+    {
+      "id": "logo",
+      "w": "",
+      "h": "48px",
+      "inputType": "file",
+      "inputLabel": "戲院LOGO",
+      "iconL": "",
+      "iconLS": "",
+      "placeholder": "請選擇一個檔案",
+      "iconR": "",
+      "iconRS": ""
+    },
+    {
+      "id": "hero-img",
+      "w": "",
+      "h": "48px",
+      "inputType": "file",
+      "inputLabel": "視覺圖片",
+      "iconL": "",
+      "iconLS": "",
+      "placeholder": "請選擇一個檔案",
+      "iconR": "",
+      "iconRS": ""
+    }
+  ],
+  "member": [
+    {
+      "id": "111111",
+      "name": "陳靖仇",
+      "nickname": "阿仇",
+      "gender": "male",
+      "mobile": "0900-000-000",
+      "birth": "1900-01-01",
+      "email": "ch1@gmail.com",
+      "pwd": "1111",
+      "avatar": "",
+      "city": "台北市",
+      "address": "",
+      "fav_type": "",
+      "career": "",
+      "join_date": "",
+      "permission": "",
+      "collect_film": "",
+      "collect-cinema": "",
+      "collect-article": "",
+      "collect-activity": "",
+      "collect-forum": ""
+    },
+    {
+      "id": "22222",
+      "name": "于小雪",
+      "nickname": "小雪",
+      "gender": "female",
+      "mobile": "0900-000-001",
+      "birth": "1900-02-02",
+      "email": "ch2@gmail.com",
+      "pwd": "2222",
+      "avatar": "",
+      "city": "台北市",
+      "address": "",
+      "fav_type": "",
+      "career": "",
+      "join_date": "",
+      "permission": "",
+      "collect_film": "",
+      "collect-cinema": "",
+      "collect-article": "",
+      "collect-activity": "",
+      "collect-forum": ""
+    },
+    {
+      "id": 1558524094523,
+      "name": "",
+      "nickname": "test",
+      "gender": "",
+      "mobile": "",
+      "birth": "",
+      "email": "test1@gg.com",
+      "pwd": "123456",
+      "avatar": "",
+      "city": "",
+      "address": "",
+      "fav_type": "",
+      "career": "",
+      "join_date": "",
+      "permission": "",
+      "collect_film": "",
+      "collect-cinema": "",
+      "collect-article": "",
+      "collect-activity": "",
+      "collect-forum": ""
+    }
+  ],
+ 
