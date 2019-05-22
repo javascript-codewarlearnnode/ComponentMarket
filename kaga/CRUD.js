@@ -10,7 +10,7 @@ class CRUD extends React.Component {
 
     async componentDidMount() {
         try {
-            //新增使用者資料
+            //C 新增使用者資料
             const data = this.state.wantUpdatesData
             try {
                 const res = await fetch('http://localhost:5555/cinemaCard', {
@@ -31,7 +31,7 @@ class CRUD extends React.Component {
                 console.log(e)
             }
 
-            //讀取使用者資料
+            //R 讀取使用者資料
             const response = await fetch('http://localhost:5555/cinemaCard', {
                 method: 'GET',
                 headers: new Headers({
@@ -47,11 +47,12 @@ class CRUD extends React.Component {
         } finally {
         }
     }
-    //更新使用者資料
+    //U D 更新使用者資料
     handleClick = value => async () => {
         try {
             // data是改變後的資料
             const data = { total: this.state.total + value }
+            //網址請加上資料分頁的id
             const response = await fetch('http://localhost:5555/cinemaCard', {
                 method: 'PUT',
                 body: JSON.stringify(data),
